@@ -19,12 +19,12 @@ function ProfilePics() {
 
 function LinkSection() {
     return (
-        <div>
+        <div className="link__sect">
           <button>
             <a href="twitter.com/fj_fabulous" id="twitter">Twitter</a>
           </button>
           <button>
-            <a href="https://training.zuri.team/" id="btn_zuri">Zuri Team</a>
+            <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
           </button>
           <button>
             <a href="http://books.zuri.team" id="books">Zuri Books</a>
@@ -36,7 +36,7 @@ function LinkSection() {
             <a href="https://background.zuri.team" id="pitch">Background check for coders</a>
           </button>
           <button>
-            <a href="https://books.zuri.team/design-rules" id="book-design">Design Books</a>
+            <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
           </button>
         </div>
     )
