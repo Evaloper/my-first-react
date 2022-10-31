@@ -23,16 +23,16 @@ function LinkSection() {
             <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
           </button>
           <button>
-            <a href="http://books.zuri.team" id="books">Zuri Books</a>
+            <a href="http://books.zuri.team" id="books" title="this is where you find books about design and coding">Zuri Books</a>
           </button>
           <button>
-            <a href="https://books.zuri.team/python-for-beginners?ref_id=taddy" id="book__python">Python Books</a>
+            <a href="https://books.zuri.team/python-for-beginners?ref_id=taddy" id="book__python" title="Buy for a discounted price #234bb">Python Books</a>
           </button>
           <button>
-            <a href="https://background.zuri.team" id="pitch">Background check for coders</a>
+            <a href="https://background.zuri.team" id="pitch" title="Click to check accuracy of your code">Background check for coders</a>
           </button>
           <button>
-            <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+            <a href="https://books.zuri.team/design-rules" id="book__design" title="Learn basic design rules for free">Design Books</a>
           </button>
           <div className="last_div">
             <img className="slack" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="slack"/>
