@@ -102,7 +102,12 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin-right: 60px;
+    width: 375px;
+    margin-left: 100px;
+  }
+
+  .footer-img {
+    margin-top: 0;
   }
 
 }
