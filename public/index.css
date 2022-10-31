@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  text-align: center;
+}
+
+#profile__img{
+  border-radius: 275px;
+  width: 88px;
+}
+
+.link__sect {
+  display: flex;
+  flex-direction: column;
+}
+
+.link__sect > button {
+  width: 1152px;
+  margin: auto;
+  height: 76px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #eaecf0;
+  background-color: #eaecf0;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}

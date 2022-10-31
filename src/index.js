@@ -21,7 +21,7 @@ function LinkSection() {
     return (
         <div className="link__sect">
           <button>
-            <a href="twitter.com/fj_fabulous" id="twitter">Twitter</a>
+            <a href="twitter.com/fj_fabulous" id="twitter">Twitter Link</a>
           </button>
           <button>
             <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
