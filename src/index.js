@@ -44,9 +44,9 @@ function LinkSection() {
 function Footer() {
   return (
       <footer>
-        <div ><img src="https://internship.zuri.team/static/media/logo.36d2d48a.svg" className="footer-div"/></div>
+        <div ><img src="https://internship.zuri.team/static/media/logo.36d2d48a.svg" className="footer-div" alt="zuri"/></div>
         <div><p>HNG Internship 9 Frontend Task</p></div>
-        <div ><img src="https://i0.wp.com/ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png?fit=2225%2C539&ssl=1" className="footer-img"v/></div>
+        <div ><img src="https://i0.wp.com/ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png?fit=2225%2C539&ssl=1" alt="I4G" className="footer-img"v/></div>
       </footer>
   )
 }
