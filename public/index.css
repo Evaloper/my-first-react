@@ -53,8 +53,10 @@ button a {
 }
 
 .last_div > img {
-  width: 9px;
+  width: 15px;
+  margin-top: 20px;
 }
+
 
 .slack {
   margin-right: 10px;
