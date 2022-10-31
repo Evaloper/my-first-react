@@ -13,16 +13,32 @@ code {
   margin: auto;
 }
 
+.shared__icon {
+  border: 1px dashed #D0D5DD;
+  border-radius: 10px;
+  position: absolute;
+  right: 385px;;
+  top: 40px;
+  width: 20px;
+}
+
+.shared__icon > img {
+  width: 12px;
+}
+
 #main{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 #profile__img{
   border-radius: 275px;
   width: 88px;
+  margin-top: 30px;
 }
 
 #slack {
@@ -87,8 +103,21 @@ footer {
       margin: 40px 30px;
   }
 
+  .shared__icon {
+    border: 1px dashed #D0D5DD;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    width: 20px;
+  }
+
+  .shared__icon > img {
+    width: 12px;
+  }
+
   .link__sect > button {
-    width: 300px;
+    width: 343px;
     margin: auto;
     height: 68px;
     margin-bottom: 8px;

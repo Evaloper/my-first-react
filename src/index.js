@@ -5,6 +5,7 @@ function ProfilePics() {
     return (
       <div id="profile">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHmu38XXGmsqQ/profile-displayphoto-shrink_200_200/0/1651077574377?e=1669852800&v=beta&t=liqI8fGbKeMOouBQQ84hOgJ5rD49q6szIBI9_0yuhJc" id="profile__img" alt="" />
+        <div className="shared__icon"><img src="https://cdn-icons-png.flaticon.com/128/2958/2958783.png" alt="shared icon"/></div>
         <h4>Gbaje Eva</h4>
         <h4 id="slack">Taddy</h4>
       </div>
