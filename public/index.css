@@ -13,6 +13,13 @@ code {
   margin: auto;
 }
 
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #profile__img{
   border-radius: 275px;
   width: 88px;
@@ -45,6 +52,33 @@ button a {
   color: #101828;
 }
 
+.last_div > img {
+  width: 9px;
+}
+
+.slack {
+  margin-right: 10px;
+}
+
+.footer-div {
+  width: 185px;
+  position: relative;
+  top: 10px;
+}
+
+.footer-img {
+  width: 132px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  border: 1px solid #eaecf0;
+  width: 1152px;
+}
+
 
 @media screen and (max-width: 480px ){
   #root {
@@ -52,7 +86,7 @@ button a {
   }
 
   .link__sect > button {
-    width: 343px;
+    width: 300px;
     margin: auto;
     height: 68px;
     margin-bottom: 8px;
@@ -62,6 +96,13 @@ button a {
 
   button a {
     font-size: 14px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 60px;
   }
 
 }
