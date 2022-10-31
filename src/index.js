@@ -6,6 +6,7 @@ function ProfilePics() {
       <>
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHmu38XXGmsqQ/profile-displayphoto-shrink_200_200/0/1651077574377?e=1669852800&v=beta&t=liqI8fGbKeMOouBQQ84hOgJ5rD49q6szIBI9_0yuhJc" id="profile__img" alt="" />
         <h4>Gbaje Eva</h4>
+        <h4 id="slack">Taddy</h4>
       </>
         )
 }
