@@ -16,24 +16,12 @@ function ProfilePics() {
 function LinkSection() {
     return (
         <div className="link__sect">
-          <button>
-            <a href="https://twitter.com/fabulous_fj" id="twitter" target="_blank">Twitter Link</a>
-          </button>
-          <button>
-            <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
-          </button>
-          <button>
-            <a href="https://books.zuri.team" id="books" title="this is where you find books about design and coding">Zuri Books</a>
-          </button>
-          <button>
-            <a href="https://books.zuri.team/python-for-beginners?ref_id=taddy" id="book__python" title="Buy for a discounted price #234bb">Python Books</a>
-          </button>
-          <button>
-            <a href="https://background.zuri.team" id="pitch" title="Click to check accuracy of your code">Background check for coders</a>
-          </button>
-          <button>
-            <a href="https://books.zuri.team/design-rules" id="book__design" title="Learn basic design rules for free">Design Books</a>
-          </button>
+          <a href="https://twitter.com/fabulous_fj" id="twitter" target="_blank" type="button">Twitter Link</a>
+          <a href="https://training.zuri.team/" id="btn__zuri" type="button">Zuri Team</a>
+          <a href="https://books.zuri.team" id="books" title="this is where you find books about design and coding" type="button">Zuri Books</a>
+          <a href="https://books.zuri.team/python-for-beginners?ref_id=taddy" id="book__python" title="Buy for a discounted price" type="button">Python Books</a>
+          <a href="https://background.zuri.team" id="pitch" title="Click to check accuracy of your code" type="button">Background check for coders</a>
+          <a href="https://books.zuri.team/design-rules" id="book__design" title="Learn basic design rules for free" type="button">Design Books</a>
           <div className="last_div">
             <img className="slack" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="slack"/>
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  alt="github" className="github"/>

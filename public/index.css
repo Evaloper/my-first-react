@@ -51,7 +51,7 @@ code {
   margin-top: 56px;
 }
 
-.link__sect > button {
+.link__sect > a {
   width: 1152px;
   margin: auto;
   height: 76px;
@@ -59,14 +59,22 @@ code {
   margin-bottom: 8px;
   border: 1px solid #eaecf0;
   background-color: #eaecf0;
-}
-
-button a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
   color: #101828;
+  text-align: center;
+  padding: 24px 32px;
+  box-sizing: border-box;
 }
+
+/* a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  text-align: center;
+} */
 
 .last_div > img {
   width: 15px;
@@ -116,19 +124,18 @@ footer {
     width: 12px;
   }
 
-  .link__sect > button {
+  .link__sect > a{
     width: 343px;
     margin: auto;
     height: 68px;
     margin-bottom: 8px;
     border: 1px solid #eaecf0;
     background-color: #eaecf0;
-  }
-
-  button a {
+    padding: 24px 32px;
+    box-sizing: border-box;
     font-size: 14px;
   }
-
+  
   footer {
     display: flex;
     flex-direction: column;
