@@ -17,13 +17,13 @@ function LinkSection() {
     return (
         <div className="link__sect">
           <button>
-            <a href="twitter.com/fj_fabulous" id="twitter">Twitter Link</a>
+            <a href="https://twitter.com/fabulous_fj" id="twitter" target="_blank">Twitter Link</a>
           </button>
           <button>
             <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
           </button>
           <button>
-            <a href="http://books.zuri.team" id="books" title="this is where you find books about design and coding">Zuri Books</a>
+            <a href="https://books.zuri.team" id="books" title="this is where you find books about design and coding">Zuri Books</a>
           </button>
           <button>
             <a href="https://books.zuri.team/python-for-beginners?ref_id=taddy" id="book__python" title="Buy for a discounted price #234bb">Python Books</a>
